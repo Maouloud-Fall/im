@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Dancing+Script&display=wap');
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Advent pro', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+}
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+/* ---------------NAVBAR------------- */
+nav {
+    overflow: hidden;
+    background-color: rgb(175, 45, 12);
+    position: fixed;
+    width: 100%;
+    opacity: 9;
+}
+header li {
+    float: right;
+    font-size: 1.5em;
+}
+header li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 30px 20px;
+}#logo {
+    font-family: 'Dancing Script', 'cursive';
+    font-weight: bold;
+    float: left;
+}
+/* ******************IMAGE PRINCIPALE***************** */
+#imagePrincipale {
+    padding-top: 60px;
+    background: url(236cfa5d802d699ed4150b2154302487.JPG) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 799px;
+}
+h1 {
+    font-family: 'Dancing Script','cursive';
+    text-align: center;
+    color: rgb(165, 16, 16);
+    font-size: 6em;
+    margin-top: 110px;
+    text-shadow: 1px 3px 2px black;
+}
+#premierTrait {
+    height: 2px;
+    width: 50%;
+    margin: -3px auto;
+    background-color: #fc1ed7;
+    box-shadow: 1px 3px 2px black;
+}
+h3 {
+    text-align: center;
+    color: rgb(7, 167, 61);
+    font-size: 3em;
+    text-shadow: 1px 3px 2px black;
+}
+/* *****************PRESENTATION***************** */
+#presentations {
+    background-color: rgb(243, 243, 127);
+    padding: 10px 0px 100px 0;
+    
+}
+#textIntro {
+    padding: 5px 20%;
+    
+}
+#presentations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+.imagesPrestations h4 {
+    font-family: 'Dancing Script', 'cursive';
+    text-align: center;
+    font-size: 1.8em;
+    margin: 15px;
+    font-weight: 300;
+}
+.imagesPrestations img {
+    border-radius: 50%;
+    box-shadow: 5px 5px 3px 1px rgba(0,0,0,0.7);
+}
+.imagesPrestations img:hover {
+    opacity: 0.5;
+    transform: scale(1.05);
+    transition: 0.8s ease-in-out;
+}
+/* ****************TOURISME**************** */
+#tourisme {
+    height: 1400px;
+    padding: 1px 2%;
+    background-color: #887516;
+}
+#tourisme h2 {
+    padding: 60px;
+}
+#ocean {
+    background-image: url(windows-11wallpaper-fond-ecran.JPG);
+}
+#chateau {
+    background-image: url(auto.jfif);
+}
+#phare {
+    background-image: url(windows11wallpaper-fond-ecran.JPG);
+}
+#vignoble {
+    background-image: url(windows11-wallpaper-ecran.JPG);
+}
+#tourisme li {
+    margin: 65px 100px 0 100px;
+    height: 226px;
+    width: 55%;
+    max-width: 550%;
+    float: left;
+    box-shadow: 6px 6px 28px -1px rgba(0,0,0,0.75);
+}
+#tourisme p {
+    height: 45px;
+    width: 235px;
+    background-color: green;
+    float: right;
+    margin: 50px -180px 0 0;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 15px;
+    box-shadow: 4px 4px o 1px rgba(90,161,43,1);
+}
+#tourisme #chateau p, #vignoble p {
+    float: right;
+}
+#chateau p, #vignoble p {
+    float: left;
+    background-color: aqua;
+    margin-left: -180px;
+    box-shadow: -4px 4px 0 1px rgb(218, 224, 224);
+}
+/* ******************FOOTER*************** */
+footer {
+    background-color: #887516;
+    color: antiquewhite;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+form {
+    margin: 0 auto;
+    max-width: 900px;
+}
+input, textarea, button  {
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family: 'Advent Pro', 'sans-serif';
+    border-radius: 8px;
+}
+textarea {
+    height: 120px;
+}
+button {
+    font-size: 18px;
+    background-color: darkslategrey;
+}
+button:hover {
+    background-color: lightsalmon;
+    color: crimson;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+#deuxiemeTrait {
+    height: 1px;
+    width: 75%;
+    background-color: maroon;
+    margin: 60px auto;
+}
+#copyrightEtIcons {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+#copyright {
+    width: 50%;
+    text-align: left;
+    color: rgb(36, 8, 136);
+}
+#icons {
+    width: 50%;
+    text-align: right;
+}
+#icons a {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 1.3em;
+    color: tomato;
+}
+#icons a:hover {
+    transform: scale(1.5);
+    transition: 0.3s;
+}
